@@ -1,1 +1,1 @@
-https://psycodelicss.github.io/rsschool-cv/cv
+https://psycodelicss.github.io/rsschool-cv/
