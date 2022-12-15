@@ -1,3 +1,4 @@
+![MyPhoto](//placehold.it/150x100 "Just chill, dude :)")
 # **Alexander Boyarchuk**
 ## *Future Front-End Developer*
 ***
@@ -36,3 +37,22 @@ In the meantime, I need to become an independent unit and get my first earnings 
 * Adobe Photoshop & Figma (at the developer level)
 ***
 ## **Code Example**
+**Calculate the sum of the numbers up to a given number.**
+
+*Write a function, sumTo(n), that calculates the sum of numbers from 1 to n for a given n:*
+
+```js
+let result;
+
+function sumTo(n) {
+    if (n > 1) {
+        return n + sumTo(n - 1);
+    } else {
+        return n;
+    }
+}
+
+sumTo(x = +prompt("Enter value for sumTo(n): ", ""));
+document.getElementById("clicker").innerHTML = "Result sumTo(" + x + "): " + sumTo(x);
+```
+***
