@@ -76,3 +76,6 @@ document.getElementById("clicker").innerHTML = "Result sumTo(" + x + "): " + sum
 * Programming Fundamentals CS50 JavaRush
 * Programming Fundamentals GeekBrains
 ***
+## **Languages**
+* **Russian** - *Native*
+* **English** - *Beginner A1*
