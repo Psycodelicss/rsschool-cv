@@ -1,4 +1,4 @@
-![MyPhoto](//placehold.it/150x100 "Just chill, dude :)")
+![MyPhoto](/images/my-photo.jpg "Just chill, dude :)")
 # **Alexander Boyarchuk**
 ## *Future Front-End Developer*
 ***
@@ -55,4 +55,24 @@ function sumTo(n) {
 sumTo(x = +prompt("Enter value for sumTo(n): ", ""));
 document.getElementById("clicker").innerHTML = "Result sumTo(" + x + "): " + sumTo(x);
 ```
+***
+## **Experience**
+### **_A few of my training work_**
+* First maket
+* Second maket
+* Third maket
+* Fourth maket
+***
+## **Education**
+### **_Courses_**
+* HTML&CSS on w3schools
+* HTML&CSS on webref
+* HTML&CSS on freeCodeCamp
+* HTML&CSS on GeekBrains
+* HTML&CSS on CodeBasics
+* JS on learn.javascript
+* JS on GeekBrains
+* JS on Youtube-channel - "Name..."
+* Programming Fundamentals CS50 JavaRush
+* Programming Fundamentals GeekBrains
 ***
