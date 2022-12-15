@@ -27,3 +27,12 @@ My goal...
 
 In the meantime, I need to become an independent unit and get my first earnings and real work experience in freelancing or in some company in the direction of front-end development.
 ***
+## **Skills**
+* HTML
+* CSS
+* JavaScript (basic)
+* Git / GitHub
+* Sublime Text & VS Code
+* Adobe Photoshop & Figma (at the developer level)
+***
+## **Code Example**
