@@ -58,10 +58,8 @@ document.getElementById("clicker").innerHTML = "Result sumTo(" + x + "): " + sum
 ***
 ## **Experience**
 ### **_A few of my training work_**
-* First maket
-* Second maket
-* Third maket
-* Fourth maket
+[![First Layout Screenshot](/images/first-layout.png "First Layout")](https://psycodelicss.github.io/first-maket/) [![Second Layout Screenshot](/images/second-layout.png "Second Layout")](https://psycodelicss.github.io/second-layout/)
+[![Third Layout Screenshot](/images/third-layout.png "Third Layout")](https://psycodelicss.github.io/third-layout/) [![Fourth Layout Screenshot](/images/fourth-layout.png "Fourth Layout")](https://psycodelicss.github.io/fourth-layout/)
 ***
 ## **Education**
 ### **_Courses_**
