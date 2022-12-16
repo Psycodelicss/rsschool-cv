@@ -65,17 +65,31 @@ document.getElementById("clicker").innerHTML = "Result sumTo(" + x + "): " + sum
 ***
 ## **Education**
 ### **_Courses_**
-* HTML&CSS on w3schools
-* HTML&CSS on webref
-* HTML&CSS on freeCodeCamp
-* HTML&CSS on GeekBrains
-* HTML&CSS on CodeBasics
-* JS on learn.javascript
-* JS on GeekBrains
-* JS on Youtube-channel - "Name..."
-* Programming Fundamentals CS50 JavaRush
-* Programming Fundamentals GeekBrains
+* **HTML & CSS**
+    * *Completed*
+        * W3Schools
+        * htmlbook
+        * htmlacademy
+        * webref
+        * GeekBrains
+        * CodeBasics
+    * *In progress*
+        * FreeCodeCamp
+* **JavaScript**
+    * *Completed*
+        * (there's nothing here yet)
+    * *In progress*
+        * learn.javascript
+        * JS for Beginners on the YouTube channel "Bogdan Stashchuk"
+        * Rolling Scopes School JS/FE Stage 0
+* **Programming Fundamentals**
+    * *Completed*
+        * CS50 JavaRush
+        * GeekBrains
 ***
 ## **Languages**
 * **Russian** - *Native*
-* **English** - *Beginner A1*
+* **English** - *Beginner A1 (A2 in progress)*
+    >So far, I'm learning English in the Duolingo app and trying to use English everywhere by default.
+***
+>**_Keep learning..._**
