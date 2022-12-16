@@ -1,4 +1,4 @@
-![MyPhoto](/images/my-photo.jpg "Just chill, dude :)")
+![MyPhoto](./images/my-photo.jpg "Just chill, dude :)")
 # **Alexander Boyarchuk**
 ## *Future Front-End Developer*
 ***
@@ -7,6 +7,7 @@
 * **Discord:** - @Psycodelicss#2190
 * **Telegram** - [t.me/psycodelicss](https://t.me/psycodelicss)
 * **GitHub** - [github.com/psycodelicss](https://github.com/psycodelicss)
+
 ***
 ## **About me**
 ### **_My way_**
@@ -17,6 +18,7 @@ About 3-4 years ago I first learned about web development, then just immersing m
 My acquaintance with IT came from my younger brother, who at that time, at the age of 17, all by himself rented an office and created a website development team, consisting of two more or less layout designers, web designer, backend developer, and my brother, who was a full-stack developer, team leader and project manager in one. That's when my journey began, my desire then and now is to be part of this ship and create some product that is useful to people and in line with the latest technology at the time of its release, something particularly unique and exciting.
 
 It's been 3-4 years since then, I've had to work somewhere, and depending on my previous non-IT job, I had my own set of responsibilities and routines that went against my self-development towards web development. Also, something bad happened to that dream team, leading to its dissolution and then my lack of understanding of what I should do next. Now that I have reached a turning point, I have decided to get back on my path and never turn away from it again.
+
 ***
 ### **_My aspirations_**
 My path is one of perfection and self-development in information technology and web development in particular.
@@ -27,6 +29,7 @@ My goal...
 >*"A samurai has no goal, only a path..."*
 
 In the meantime, I need to become an independent unit and get my first earnings and real work experience in freelancing or in some company in the direction of front-end development.
+
 ***
 ## **Skills**
 * HTML
@@ -35,6 +38,7 @@ In the meantime, I need to become an independent unit and get my first earnings 
 * Git / GitHub
 * Sublime Text & VS Code
 * Adobe Photoshop & Figma (at the developer level)
+
 ***
 ## **Code Example**
 **Calculate the sum of the numbers up to a given number.**
@@ -58,8 +62,9 @@ document.getElementById("clicker").innerHTML = "Result sumTo(" + x + "): " + sum
 ***
 ## **Experience**
 ### **_A few of my training work_**
-[![First Layout Screenshot](/images/first-layout.png "First Layout")](https://psycodelicss.github.io/first-maket/) [![Second Layout Screenshot](/images/second-layout.png "Second Layout")](https://psycodelicss.github.io/second-layout/)
-[![Third Layout Screenshot](/images/third-layout.png "Third Layout")](https://psycodelicss.github.io/third-layout/) [![Fourth Layout Screenshot](/images/fourth-layout.png "Fourth Layout")](https://psycodelicss.github.io/fourth-layout/)
+[![First Layout Screenshot](./images/first-layout.png "First Layout")](https://psycodelicss.github.io/first-maket/) [![Second Layout Screenshot](./images/second-layout.png "Second Layout")](https://psycodelicss.github.io/second-layout/)
+[![Third Layout Screenshot](./images/third-layout.png "Third Layout")](https://psycodelicss.github.io/third-layout/) [![Fourth Layout Screenshot](./images/fourth-layout.png "Fourth Layout")](https://psycodelicss.github.io/fourth-layout/)
+
 ***
 ## **Education**
 ### **_Courses_**
@@ -84,10 +89,13 @@ document.getElementById("clicker").innerHTML = "Result sumTo(" + x + "): " + sum
     * *Completed*
         * CS50 JavaRush
         * GeekBrains
+
 ***
 ## **Languages**
 * **Russian** - *Native*
 * **English** - *Beginner A1 (A2 in progress)*
-    >So far, I'm learning English in the Duolingo app and trying to use English everywhere by default.
+    >So far, I'm learning English in the "Duolingo" app and trying to use English everywhere by default.
+
 ***
+
 >**_Keep learning..._**
