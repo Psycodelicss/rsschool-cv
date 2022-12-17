@@ -1,0 +1,24 @@
+{
+  "name": "rsschool-cv",
+  "version": "1.0.0",
+  "description": "1. Link to my CV in md - [click here](https://psycodelicss.github.io/rsschool-cv/cv)\r 2. Link to my CV in html - [click here](https://psycodelicss.github.io/rsschool-cv/)",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/Psycodelicss/rsschool-cv.git"
+  },
+  "keywords": [],
+  "author": "",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/Psycodelicss/rsschool-cv/issues"
+  },
+  "homepage": "https://github.com/Psycodelicss/rsschool-cv#readme",
+  "devDependencies": {
+    "linthtml-config-htmlacademy": "^1.0.3",
+    "stylelint-config-htmlacademy": "^1.1.4"
+  }
+}
