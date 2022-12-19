@@ -105,16 +105,6 @@ ul {
   line-height: 2em;
 }
 
-/*
-header
-.header
-nav
-.nav-menu
-ul
-li
-a
-*/
-
 /* todo MAIN */
 
 .main-page {
@@ -135,10 +125,35 @@ a
 .contacts ul li a {
   color: #ffe0ff;
   text-decoration: none;
+  display: flex;
+  align-items: flex-end;
+}
+
+.contacts ul li a img{
+  margin-right: 20px;
 }
 
 .contacts ul li a:hover {
   animation: color-link 1.5s infinite;
+}
+
+.code-example code {
+  display: block;
+  background-color: #ffe0ff;
+  color: #141414;
+  overflow: auto;
+}
+
+.js-key {
+  color: #d841d0;
+}
+
+.js-numb {
+  color: #4242b4;
+}
+
+.js-str {
+  color: #8a40eb;
 }
 
 .flex-layouts {
@@ -147,44 +162,61 @@ a
   justify-content: space-around;
   align-items: center;
 }
-/*
 
-main
-.main
-section
-.contacts
-#contacts
-.profile
-img
-h1
-h2
-.contacts-info
-ul
-li
-.about-me
- #about-me
-article
-.my-way
-h3
-p
-.my-aspirations
-q
-.skills
-#skills
-.code-example
-.code-example
-pre
-code
-.experience
-#experience
-.grid-layouts
-.education
-#education
-.languages
-#languages
-blockquote
+.flex-courses {
+  display: flex;
+  flex-flow: row wrap;
+  justify-content: space-between;
+  align-items: flex-start;
+  margin: 0 auto;
+  width: 99%;
+}
 
-*/
+.html-css-edctn {
+  width: 33%;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: flex-start;
+  flex-wrap: wrap;
+  min-width: 200px;
+}
+
+.html-css-color {
+  color: #8a40eb;
+  padding: 40px 0;
+}
+
+.js-color {
+  color: #f8f546;
+  padding: 40px 0;
+}
+
+.pf-color {
+  color:#d841d0;
+  padding: 40px 0;
+}
+
+.js-edctn {
+  width: 33%;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  flex-wrap: wrap;
+  text-align: center;
+  min-width: 200px;
+}
+
+.pf-edctn {
+  width: 33%;
+  display: flex;
+  flex-direction: column;
+  justify-content: flex-end;
+  align-items: flex-end;
+  text-align: right;
+  min-width: 200px;
+}
 
 /* todo FOOTER! */
 
@@ -194,12 +226,25 @@ footer
 
 .footer-page {
   background-color: #4242b4;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  padding: 20px 0;
+}
+.footer-page ul {
+  display: flex;
+  flex-direction: row;
+  justify-content: space-between;
+  align-items: center;
+  width: 100%;
+  list-style: none;
+  text-align: center;
 }
 
-/*
-h2
-ul
-li
-a
-img
-*/
+.copyright-page {
+  font-size: 24px;
+  color: #ede0ff;
+  font-weight: bold;
+  text-decoration: none;
+  animation: color-link 1.5s infinite;
+}

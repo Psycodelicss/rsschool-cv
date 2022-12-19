@@ -1,14 +1,14 @@
 <!DOCTYPE html>
 <html lang="en">
-<head>
-  <meta charset="UTF-8">
-  <meta http-equiv="X-UA-Compatible" content="IE=edge">
-  <meta name="viewport" content="width=device-width, initial-scale=1.0">
-  <link rel="stylesheet" href="./styles/style.css">
-  <title>CV - Alexander Boyarchuk</title>
-</head>
-<body>
-  <header class="header-page">
+  <head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="./styles/style.css">
+    <title>CV - Alexander Boyarchuk</title>
+  </head>
+  <body>
+    <header class="header-page">
       <nav class="nav-menu">
         <ul class="container">
           <li><a href="#contacts">Contacts</a></li>
@@ -32,10 +32,9 @@
           <div class="contacts-info">
             <h2>Contacts</h2><hr><br>
             <ul>
-              <li>E-mail <a href="mailto:psycodelicss3@gmail.com">psycodelicss3@gmail.com</a></li>
-              <li>Discord <a href="#">@Psycodelicss#2190</a></li>
-              <li>Telegram <a href="https://t.me/psycodelicss">@psycodelicss</a></li>
-              <li>GitHub <a href="https://github.com/psycodelicss">Psycodelicss</a></li>
+              <li><a href="mailto:psycodelicss3@gmail.com"><img src="./icons/email.svg" height="40px" alt="Icon Email">psycodelicss3@gmail.com</a></li>
+              <li><a href="#"><img src="./icons/discord.svg" height="40px" alt="Icon Discord">@Psycodelicss#2190</a></li>
+              <li><a href="https://t.me/psycodelicss"><img src="./icons/telegram.svg" height="40px" alt="Icon Telegram">@psycodelicss</a></li>
             </ul>
           </div>
         </section>
@@ -71,48 +70,46 @@
           <h2>Code Example</h2><hr><br>
           <p>Calculate the sum of the numbers up to a given number.</p>
           <p>Write a function, sumTo(n), that calculates the sum of numbers from 1 to n for a given n:</p>
+          <pre>
             <code>
-              <pre>
-      let result;
-
-      function sumTo(n) {
-          if (n > 1) {
-              return n + sumTo(n - 1);
-          } else {
-              return n;
-          }
+  <span class="js-key">function</span> sumTo(n) {
+      <span class="js-key">if</span> (n > <span class="js-numb">1</span>) {
+          <span class="js-key">return</span> n + sumTo(n - <span class="js-numb">1</span>);
+      } <span class="js-key">else</span> {
+          <span class="js-key">return</span>s n;
       }
+  }
 
-      sumTo(x = +prompt("Enter value for sumTo(n): ", ""));
-      document.getElementById("clicker").innerHTML = "Result sumTo(" + x + "): " + sumTo(x);
-              </pre>
+  sumTo(x = +prompt(<span class="js-str">"Enter value for sumTo(n): "</span>, <span class="js-str">""</span>));
+  document.getElementById(<span class="js-str">"id-name"</span>).innerHTML = <span class="js-str">"Result sumTo("</span> + x + <span class="js-str">"): "</span> + sumTo(x);
             </code>
+          </pre>
         </section>
         <section class="experience" id="experience">
           <h2>Experience</h2><hr><br>
             <h3>A few of my training work</h3>
-            <div>
-              <div class="flex-layouts">
-                <img src="./images/first-layout.png" alt="First Layout Screenshot">
+            <div class="flex-layouts">
+              <div>
+                <a href="https://psycodelicss.github.io/first-maket/" target="_blank"><img src="./images/first-layout.png" alt="First Layout Screenshot"></a>
               </div>
               <div>
-                <img src="./images/second-layout.png" alt="Second Layout Screenshot">
+                <a href="https://psycodelicss.github.io/second-layout/" target="_blank"><img src="./images/second-layout.png" alt="Second Layout Screenshot"></a>
               </div>
               <div>
-                <img src="./images/third-layout.png" alt="Third Layout Screenshot">
+                <a href="https://psycodelicss.github.io/third-layout/" target="_blank"><img src="./images/third-layout.png" alt="Third Layout Screenshot"></a>
               </div>
               <div>
-                <img src="./images/fourth-layout.png" alt="Fourth Layout Screenshot">
+                <a href="https://psycodelicss.github.io/fourth-layout/" target="_blank"><img src="./images/fourth-layout.png" alt="Fourth Layout Screenshot"></a>
               </div>
             </div>
         </section>
         <section class="education" id="education">
           <h2>Education</h2><hr><br>
           <h3>Courses</h3>
-          <ul>
-            <li>HTML & CSS
+          <div class="flex-courses">
+            <div class="html-css-edctn">
               <ul>
-                <li>Completed
+                <li><span class="html-css-color">HTML & CSS</span><br><br>
                   <ul>
                     <li>W3Schools</li>
                     <li>htmlbook</li>
@@ -120,23 +117,14 @@
                     <li>webref</li>
                     <li>GeekBrains</li>
                     <li>CodeBasics</li>
-                  </ul>
-                </li>
-                <li>In progress
-                  <ul>
                     <li>FreeCodeCamp</li>
                   </ul>
                 </li>
               </ul>
-            </li>
-            <li>JavaScript
+            </div>
+            <div class="js-edctn">
               <ul>
-                <li>Completed
-                  <ul>
-                    <li>(there's nothing here yet)</li>
-                  </ul>
-                </li>
-                <li>In progress
+                <li><span class="js-color">JavaScript</span><br><br>
                   <ul>
                     <li>learn.javascript</li>
                     <li>JS for Beginners on the YouTube channel "Bogdan Stashchuk"</li>
@@ -144,37 +132,38 @@
                   </ul>
                 </li>
               </ul>
-            </li>
-            <li>Programming Fundamentals
+            </div>
+            <div class="pf-edctn">
               <ul>
-                <li>Completed
+                <li><span class="pf-color">Programming Fundamentals</span><br><br>
                   <ul>
                     <li>CS50 JavaRush</li>
                     <li>GeekBrains</li>
                   </ul>
                 </li>
               </ul>
-            </li>
-          </ul>
+            </div>
+          </div>
         </section>
         <section class="languages" id="languages">
           <h2>Languages</h2><hr><br>
           <ul>
             <li>Russain - Native</li>
             <li>English - Beginner A1 (A2 in progress)</li>
-          </ul>
-          <blockquote>So far, I'm learning English in the "Duolingo" app and trying to use English everywhere by default.</blockquote>
-          <p>Keep learning...</p>
+          </ul><br>
+          <q>So far, I'm learning English in the "Duolingo" app and trying to use English everywhere by default.</q><br><br>
+          <p>Keep learning...</p><br>
         </section>
       </div>
     </main>
     <footer class="footer-page">
-      <h2>FOOTER</h2>
-      <ul>
-        <li><a href="#"><img src="" alt="GitHub">My GitHub</a></li>
-        <li>&#169; 2022 Developed By Alexadner Boyarchuk</li>
-        <li><a href="#"><img src="" alt="Logo RSS"></a></li>
-      </ul>
-  </footer>
-</body>
+      <div class="container">
+        <ul>
+          <li><a href="https://github.com/psycodelicss" target="_blank"><img src="./icons/github.svg" height="40px" alt="Logo GitHub"></a></li>
+          <li><span class="copyright-page">&#169; 2022 Developed By Psycodelicss</span></li>
+          <li><a href="https://rs.school/js/" target="_blank"><img src="./icons/rsschool.svg" height="40px" alt="Logo RSS"></a></li>
+        </ul>
+      </div>
+    </footer>
+  </body>
 </html>
