@@ -125,6 +125,12 @@ ul {
 .contacts ul li a {
   color: #ffe0ff;
   text-decoration: none;
+  display: flex;
+  align-items: flex-end;
+}
+
+.contacts ul li a img{
+  margin-right: 20px;
 }
 
 .contacts ul li a:hover {
@@ -234,10 +240,11 @@ footer
   list-style: none;
   text-align: center;
 }
-/*
-h2
-ul
-li
-a
-img
-*/
+
+.copyright-page {
+  font-size: 24px;
+  color: #ede0ff;
+  font-weight: bold;
+  text-decoration: none;
+  animation: color-link 1.5s infinite;
+}
